@@ -1,0 +1,19 @@
+# Pipeline runtime (imported by src/ and therefore required by run.sh).
+# The dataset is fetched with the standard library, so no HTTP client is needed.
+joblib==1.5.3
+numpy==2.5.2
+pandas==2.3.3
+scikit-learn==1.9.0
+
+# Evaluation plots written by src/main.py, and EDA charting.
+matplotlib==3.11.1
+seaborn==0.13.2
+
+# Rebuilding and executing eda.ipynb via scripts/build_eda.py.
+ipykernel==7.3.0
+jinja2==3.1.6
+nbclient==0.11.0
+nbformat==5.11.1
+
+# Test suite.
+pytest==9.1.1

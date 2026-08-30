@@ -1,0 +1,28 @@
+# Local data (the assessment database must never be committed)
+data/*.db
+*.db
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated outputs
+artifacts/
+reports/
+
+# Local tooling and operating-system files
+.impeccable/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
